@@ -14,8 +14,8 @@ IPAddress subnet(255, 255, 255, 0);
 // --- PINS ACTIVES ---
 const int buttonPin = 4;
 // Seulement 2 servos
-const int NUM_SERVOS = 2; 
-const int servoPins[NUM_SERVOS] = {12, 14}; // Servo 1 sur 12, Servo 2 sur 14
+const int NUM_SERVOS = 4; 
+const int servoPins[NUM_SERVOS] = {12, 14, 13, 32}; // Servo 1 sur 12, Servo 2 sur 14
 
 Servo servos[NUM_SERVOS];
 WebServer server(80);
